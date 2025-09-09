@@ -10,7 +10,6 @@ public class SavingAccount {
     public void withdraw(double amount) {
         if(balance >= amount) {
             balance = balance - amount;
-            //balance-=1;
             System.out.println("Withdrawing $" + amount);
             //System.out.println("Balance is $" + balance);
         }
